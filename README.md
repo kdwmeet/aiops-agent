@@ -72,6 +72,8 @@ uv run streamlit run main.py
 }
 ```
 ## 7. 실행 화면
+<img width="1405" height="683" alt="스크린샷 2026-03-04 130614" src="https://github.com/user-attachments/assets/137ca3f5-5115-4bfa-a101-e7fdb4294ec0" />
+
 
 ## 8. 주의 사항
 프로덕션 환경에서는 민감한 개인정보(PII)가 로그에 포함되지 않도록 마스킹(Masking) 처리가 선행되어야 합니다.
