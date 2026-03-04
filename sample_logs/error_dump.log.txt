@@ -1,0 +1,11 @@
+[2024-03-20 10:00:01] [INFO] Request received: GET /api/v1/products (User: 1024)
+[2024-03-20 10:00:02] [INFO] Response sent: 200 OK (Duration: 120ms)
+[2024-03-20 10:05:00] [INFO] Batch job started: heavy_image_processing
+[2024-03-20 10:06:12] [WARN] High memory usage detected: 85% used
+[2024-03-20 10:07:00] [WARN] Response time degrading: GET /api/v1/products takes 2500ms
+[2024-03-20 10:07:30] [ERROR] ConnectionTimeout: Database pool is full
+[2024-03-20 10:08:00] [WARN] High memory usage detected: 95% used
+[2024-03-20 10:08:15] [ERROR] MemoryError: Unable to allocate 500MB array
+[2024-03-20 10:08:16] [CRITICAL] Worker (pid: 4521) was sent SIGKILL by OOM Killer
+[2024-03-20 10:08:17] [INFO] Worker exiting (pid: 4521)
+[2024-03-20 10:08:18] [INFO] Booting new worker (pid: 4599)
